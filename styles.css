@@ -12,10 +12,9 @@ button {
   border-color: gray;
   font-size: 20px;
   margin: 2px;
+  color: black;
 }
-button:hover {
-  background-color: darkgray;
-}
+
 button:active {
   background-color: gray;
 }
