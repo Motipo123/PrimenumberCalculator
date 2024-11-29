@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  color: white;
+}
+button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  border-width: 2px;
+  border-color: gray;
+  font-size: 20px;
+  margin: 2px;
+}
+button:hover {
+  background-color: darkgray;
+}
+button:active {
+  background-color: gray;
+}
+
+.strikethrough {
+  opacity: 50%;
+  text-decoration: line-through;
+  text-decoration-thickness: 10%;
+}
+
+.space {
+  height: 100px;
+}
+
+
+#Clear-All-Button {
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  color: rgb(130, 0, 0);
+}
+#Clear-All-Button:active {
+  color: rgb(228, 0, 0);
+  background-color: rgb(94, 0, 0);
+}
+
+input {
+  height: 40px;
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+div {
+  width: 840px;
+}
+#credits {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
