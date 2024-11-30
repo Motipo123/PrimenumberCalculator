@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2024 Mo Tiltmann
+ * Licensed under the GNU General Public License v3 (GPLv3).
+ * See the LICENSE file for details.
+ */
+
 let number_matrix = document.querySelector("#numbermatrix");
 let matrix_IDK = 100;
 
