@@ -20,10 +20,15 @@ button {
   margin: 2px;
   color: black;
   padding: 1px 1px;
+  cursor: pointer;
 }
 
 button:active {
   background-color: gray;
+}
+
+.Number-Button:hover {
+  background-color: rgb(28, 157, 232);
 }
 
 .strikethrough {
