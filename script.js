@@ -12,8 +12,8 @@ GenerateField();
 
 
 function GenerateField() {
-  let matrixHTML = "";
-  for (let index = 0; index < matrix_IDK; index++) {
+  let matrixHTML = `<button class="strikethrough">1</button>`;
+  for (let index = 1; index < matrix_IDK-1; index++) {
     matrixHTML += `<button id="Button-${index + 1}" class="Number-Button" onclick="onclickevent(${index + 1})">${index + 1}</button>`;
   }
   number_matrix.innerHTML = matrixHTML;
