@@ -13,9 +13,8 @@ button {
   height: 80px;
   border: none;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: white;
   border-width: 2px;
-  border-color: gray;
   font-size: 20px;
   margin: 2px;
   color: black;
