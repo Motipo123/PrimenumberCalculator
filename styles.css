@@ -25,11 +25,11 @@ button {
 button:active {
   background-color: gray;
 }
-
+/*
 .Number-Button:hover {
   background-color: rgb(28, 157, 232);
 }
-
+*/
 .strikethrough {
   opacity: 50%;
   text-decoration: line-through;
@@ -74,6 +74,7 @@ div {
   font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
 }
-#maindiv {
-  display: flex;
+
+.ActiveNumber {
+  border-radius: 40%;
 }

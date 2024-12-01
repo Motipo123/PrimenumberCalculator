@@ -13,7 +13,7 @@ GenerateField();
 
 function GenerateField() {
   let matrixHTML = `<button class="strikethrough">1</button>`;
-  for (let index = 1; index < matrix_IDK-1; index++) {
+  for (let index = 1; index < matrix_IDK; index++) {
     matrixHTML += `<button id="Button-${index + 1}" class="Number-Button" onclick="onclickevent(${index + 1})">${index + 1}</button>`;
   }
   number_matrix.innerHTML = matrixHTML;
@@ -39,10 +39,16 @@ function setButton(ButtonNumber, content) {
 
 function onclickevent(number) {
   //console.log("Clicked "+number);
+  
+  try {
+    document.querySelector(".ActiveNumber").classList.remove("ActiveNumber");
+  } catch (error) {}
+
   Divisible = getDivisibleNumbers(number);
   Divisible.forEach(element => {
     setButton(element, "strikethrough");
   });
+  document.querySelector(`#Button-${number}`).classList.add("ActiveNumber");
 
 };
 
