@@ -35,11 +35,19 @@ button:active {
   text-decoration: line-through;
   text-decoration-thickness: 10%;
 }
+.link {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0366d6;
+  font-size: 13px;
+}
 
 .space {
   height: 100px;
 }
-
+.small-space {
+  height: 20px;
+}
 
 #Clear-All-Button {
   height: 40px;
@@ -64,5 +72,8 @@ div {
 }
 #credits {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 10px;
+  font-size: 15px;
+}
+#maindiv {
+  display: flex;
 }
